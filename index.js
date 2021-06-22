@@ -4,6 +4,8 @@ const assert = require('assert').strict;
 const url = 'mongodb://localhost:27017/';
 const dbname = 'nucampsite';
 
+// comment
+
 MongoClient.connect(url, { useUnifiedTopology: true }, (err, client) => {
 
     assert.strictEqual(err, null);
